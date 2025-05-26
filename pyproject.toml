@@ -5,6 +5,9 @@ description = ""
 authors = [
     {name = "jodygonzales.pro@gmail.com"}
 ]
+packages = [
+    { include = "p2_requetez_service_ia" }
+]
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -21,7 +24,6 @@ dependencies = [
     "pandas (>=2.2.3,<3.0.0)",
     "scikit-learn (>=1.6.1,<2.0.0)"
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
